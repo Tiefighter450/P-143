@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,162,0,1) 10%, rgba(228,255,0,1) 20%, rgba(61,255,0,1) 30%, rgba(0,255,162,1) 40%, rgba(0,150,255,1) 50%, rgba(38,0,255,1) 60%, rgba(179,0,255,1) 70%, rgba(255,0,227,1) 80%, rgba(255,0,116,1) 90%, rgba(255,0,0,1) 100%);
+}
+
+.heading {
+    width: max-content;
+    text-align: left;
+    display: inline;
+    margin: 0;
+    position: relative;
+    background: rgb(255,0,0);
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,72,0,1) 25%, rgba(255,128,0,1) 50%, rgba(244,147,0,1) 75%, rgba(255,196,0,1) 100%);
+}
+
+.heading h1 {
+    font-size: medium;
+    display: inline;
+    margin: 0;
+    position: relative;
+}
+
+.instruction {
+    display: inline;
+    border: 2px white solid;
+    background: rgb(139,251,63);
+    background: linear-gradient(180deg, rgba(139,251,63,1) 0%, rgba(51,252,77,1) 25%, rgba(44,252,159,1) 50%, rgba(37,253,222,1) 75%, rgba(0,159,255,1) 100%);
+}
+
+.play, .restart {
+    background: rgb(139,251,63);
+    background: linear-gradient(180deg, rgba(139,251,63,1) 0%, rgba(51,252,77,1) 25%, rgba(44,252,159,1) 50%, rgba(37,253,222,1) 75%, rgba(0,159,255,1) 100%);
+}
+
+.status {
+    background: rgb(139,251,63);
+    background: linear-gradient(180deg, rgba(139,251,63,1) 0%, rgba(51,252,77,1) 25%, rgba(44,252,159,1) 50%, rgba(37,253,222,1) 75%, rgba(0,159,255,1) 100%);
+}
+
+canvas {
+    border: 2px white double;
+    border-radius: 20px;
+}
+
+h4 {
+    position: relative;
+    background-color: white;
+    line-height: 2;
+    bottom: 0;
+}
